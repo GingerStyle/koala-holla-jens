@@ -16,13 +16,13 @@ function setupClickListeners() {
     // NOT WORKING YET :(
     // using a test object
     let koalaToSend = {
-      name: 'testName',
-      age: 'testName',
-      gender: 'testName',
-      readyForTransfer: 'testName',
+      name: 'Jinkins',
+      age: '23',
+      gender: 'm',
+      readyForTransfer: 'y',
       notes: 'testName',
     };
-    // call saveKoala with the new obejct
+    // call saveKoala with the new object
     saveKoala( koalaToSend );
   }); 
 }
