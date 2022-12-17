@@ -20,7 +20,7 @@ function setupClickListeners() {
       age: '23',
       gender: 'm',
       readyForTransfer: 'y',
-      notes: 'testName',
+      notes: 'Jinkins was really sick from sitting in the rain, so we had to do something REALLY FAST!!',
     };
     // call saveKoala with the new object
     saveKoala( koalaToSend );
