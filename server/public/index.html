@@ -5,7 +5,6 @@
     <title>Koalla Holla</title>
     <script src="vendors/jquery-3.3.1.min.js" charset="utf-8"></script>
     <script src="scripts/client.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="views/styles.css">
   </head>
   <body>
     <header>
@@ -17,8 +16,8 @@
     <section id="addKoala">
       <h2>Add Koala</h2>
       <input type="text" id="nameIn" value="" placeholder="Name">
-      <input type="text" id="ageIn" value="" placeholder="Age">
       <input type="text" id="genderIn" value="" placeholder="Gender">
+      <input type="text" id="ageIn" value="" placeholder="Age">
       <input type="text" id="readyForTransferIn" value="" placeholder="Transfer">
       <input type="text" id="notesIn" value="" placeholder="Notes">
       <button type="button" id="addButton">Add Koala</button>
@@ -26,15 +25,14 @@
     <section>
       <h2>All Koalas</h2>
       <table>
-        <thead>
           <tr>
             <th>Name</th>
             <th>Age</th>
             <th>Gender</th>
             <th>Ready for Transfer</th>
             <th>Notes</th>
+            <th></th>
           </tr>
-        </thead>
         <tbody id="viewKoalas">
         </tbody>
       </table>
